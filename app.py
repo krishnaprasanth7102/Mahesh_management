@@ -5,7 +5,7 @@ maman=file.Maman
 @myapp.get("/{maman_id}")
 def index(maman_id:int):
     return maman[maman_id]
-@myapp.post("/add_mamn")
+@myapp.post("/add_maman")
 def add(name:str,age:int):
     new_id=len(maman)+1
     
